@@ -3,6 +3,7 @@ import {ref} from "vue";
 import {Developer} from "./greetings/domain/model/developer.entity.js";
 import DeveloperRegistration from "./greetings/presentation/components/developer-registration.vue";
 import DeveloperCountShow from "./greetings/presentation/components/developer-count-show.vue";
+import DeveloperGreeting from "./greetings/presentation/components/developer-greeting.vue";
 
 const firstName = ref('');
 const lastName = ref('');
@@ -37,6 +38,7 @@ function updateDeveloperCount(developer) {
     @developer-registered="updateRegisteredDeveloperInfo"
     @registration-deferred="resetRegisteredDeveloperInfo"
   />
+  <developer-greeting v-if="hasRegistered" :first-name="firstName" :last-name="lastName"/>
   <developer-count-show :developer-count="developerCount"/>
 
 </template>
