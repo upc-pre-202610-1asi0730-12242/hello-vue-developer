@@ -28,7 +28,7 @@ Detailed requirements for the app’s functionality, including registration, gre
 A PlantUML diagram illustrating the app’s structure, including the Developer entity and Vue components in the Greetings bounded context, is available in [docs/class-diagram.puml](docs/class-diagram.puml).
 Following you can find a preview of the diagram:
 
-![class-diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12242/hello-vue-developer/refs/heads/master/docs/class-diagram.puml)
+![class-diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12242/hello-vue-developer/refs/heads/main/docs/class-diagram.puml)
 
 
 ## Setup
